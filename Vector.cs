@@ -127,7 +127,7 @@ namespace Task11
             {
                 for (int i = 0; i < leftVector.Size; ++i)
                 {
-                    res = res + (dynamic)leftVector[i] * ComplexNumber.Conjugate((dynamic)rightVector[i]);
+                    res = res + leftVector[i] * ComplexNumber.Conjugate((dynamic)rightVector[i]);
                 }
             }
             else

@@ -148,7 +148,7 @@ namespace Task11
             return ComplexNumber.ComplexTrigonometricNumber(pow * num.Argument, Math.Pow(num.Module, pow));
         }
 
-        static public ComplexNumber[] Root(ComplexNumber num, int pow)
+        static public ComplexNumber[] sqrt(ComplexNumber num, int pow)
         {
             if (pow < 1)
                 throw new ComplexNumberException("Not correct pow");
